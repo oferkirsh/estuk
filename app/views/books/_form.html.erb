@@ -1,7 +1,7 @@
 <%= simple_form_for(@book, html: {class: "form-signin"}) do |f| %>
   <%= f.error_notification %>
 
-    <%= f.input :name,label: false, placeholder:"Email",required: true %>
+    <%= f.input :name,label: false, placeholder:"Book's Name",required: true %>
     <%= f.input :author,label: false, placeholder:"Author's name",required: true %>
     <%= f.input :description,label: false, placeholder:"Description",required: true, input_html: { rows:5} %>
     <%= f.input :price,label: false, placeholder:"Price",required: true %>
