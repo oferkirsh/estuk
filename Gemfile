@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'devise'
+gem 'cancancan', '~> 1.10'
 
 
 # Use ActiveModel has_secure_password
