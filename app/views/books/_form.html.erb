@@ -5,6 +5,8 @@
     <%= f.input :author,label: false, placeholder:"Author's name",required: true %>
     <%= f.input :description,label: false, placeholder:"Description",required: true, input_html: { rows:5} %>
     <%= f.input :price,label: false, placeholder:"Price",required: true %>
+    <%= f.input :image %>
+    <%= f.input :resource%>
     <%= f.input :availability,required: false,:label => false, :inline_label => "Availability" %>
     <%= f.button :submit, class: "btn btn-primary btn-block" %>
 
