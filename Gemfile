@@ -35,6 +35,18 @@ gem 'dotenv-rails', group: :development
 gem 'aws-sdk'
 gem 'friendly_id'
 gem 'stripe'
+
+group :development, :test do
+  gem 'log_buddy'
+  gem 'pry'
+  gem 'pry-remote'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
+  gem 'pry-rescue'
+  gem 'pry-byebug'
+  gem 'awesome_print'
+  gem  'pry-doc'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
